@@ -1,0 +1,108 @@
+body{
+    color: white;
+}
+nav, footer{
+    background-color: #1C2026;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    color:white ;
+    list-style-type: none;
+}
+li>a:hover{
+    color:#2594E8 ;
+}
+a:hover{
+    color:white;
+}
+.button{
+    padding:  10px 10px;
+    color: white;
+    text-decoration: none;   
+}
+.button:hover{
+    background-color: white;
+    color: #2594E8;
+}
+.button-black,.loginform{
+    background-color: #2D343D;
+    border: 1px solid black;
+    color: white;
+    
+}
+
+
+
+.navbar-brand{
+    font-size: 25.00px;
+}
+
+/* input.searchbar:focus{
+    outline: none;
+} */
+
+.rounded-radius{
+    border-radius: 25px;
+}
+
+.title{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding: 2px 50px;
+    border-bottom:5px solid #2594E8;
+}
+.title-footer{
+    width: 50%;
+    color: white;
+    padding: 2px 0px;
+    border-bottom:3px solid #2594E8;
+}
+.boxgame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #252B33 ;
+    padding: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+.boxgame:hover{
+    background-color: #2D343D;
+    color: white;
+    
+}
+.boxAgent{
+    background-color: #252B33 ;
+    color: white;
+}
+.detail-agent{
+    font-size: 14px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.img-data{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.bg-table{
+    background-color: #252B33 ;
+}
+tr:nth-child(even) {
+    background-color: #2D343D;
+  }
+tr:hover {
+    background-color: #2D343D;
+}
+
+
